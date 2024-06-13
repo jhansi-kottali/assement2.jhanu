@@ -33,10 +33,12 @@ Example: burn(0x5B38Da6a701c568545dCfcB03FcB875f56beddC4, 500)
 Example Code
 solidity
 
-// SPDX-License-Identifier: MIT
-pragma solidity 0.8.18;
 
-contract MyToken {
+
+//SPDX-License-Identifier: MIT
+ pragma solidity 0.8.18;
+
+ contract MyToken {
     string public tokenName = "NewToken";
     string public tokenAbbrv = "NTK";
     uint public totalSupply;
@@ -54,4 +56,3 @@ contract MyToken {
         }
     }
 }
-This README provides a brief overview and usage instructions for the MyToken Solidity contract.
