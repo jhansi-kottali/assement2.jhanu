@@ -12,14 +12,14 @@ Functions
 'mint'
 function mint(address _address, uint _value) public
 
-Increases the total supply by _value.
-Adds _value tokens to the balance of _address.
+Increases the total supply by "_value".
+Adds _value tokens to the balance of "_address".
 
 'burn'
 function burn(address _address, uint _value) public
 
-Decreases the total supply by _value.
-Removes _value tokens from the balance of _address (if the balance is sufficient).
+Decreases the total supply by "_value".
+Removes _value tokens from the balance of "_address" (if the balance is sufficient).
 
 Usage
 Mint Tokens:
@@ -30,8 +30,8 @@ Burn Tokens:
 
 Call burn with the address and the amount of tokens to destroy.
 Example: burn(0x5B38Da6a701c568545dCfcB03FcB875f56beddC4, 500)
+
 Example Code
-solidity
 
 
 
